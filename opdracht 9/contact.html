@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactformulier</title>
+</head>
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+   
+        <p>  <label>Naam: <input type="text" name="name" /></label></p>   
+        <p>  <label>Emailadres: <input type="email" name="email" /></label></p>
+        <p>  <label>Tel: <input type="number" name="tel"/></label></p>
+        <p>  <label>Leeftijd: <input type="age" name="age"/></label></p>     
+        <p>  <label>Geslacht:<input type="radio" name="sex" value="neutral" />Neutraal</label>
+             <label><input type="radio" name="sex" value="vrouw" />Vrouw</label>
+             <label><input type="radio" name="sex" value="man" />Man</label>
+             <label><input type="radio" name="sex" value="geen keuze" />Zeg ik niet</label>
+        </p> 
+        <p> <label> favoriete keuken: <br> </label><input type="checkbox" id="keuken1" name="keuken1" value="Frans">
+            <label for="Frans"> Frans</label><br>
+            <input type="checkbox" id="keuken2" name="keuken2" value="Italiaans">
+            <label for="Italiaans"> Italiaans</label><br>
+            <input type="checkbox" id="keuken3" name="keuken3" value="Spaans">
+            <label for="Spaans"> Spaans</label><br>
+            <input type="checkbox" id="keuken4" name="keuken4" value="Arabisch">
+            <label for="Arabisch"> Arabisch</label><br>
+            <input type="checkbox" id="keuken5" name="keuken5" value="Snack">
+            <label for="snack"> Snackbar</label><br>
+        </p>
+        <p> 
+        <label>Favoriete kleur t-shirt:<input type="color" name="color"/></label>  
+        </p>
+        <p>
+            <label> Mijn biografie: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <label for="myfile">Upload je lekkerste recept:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p>
+            <label for="homepage">URL naar je recepten website:</label>
+            <input type="url" id="homepage" name="homepage">
+        </p>
+        <p>
+            <input type="reset">  
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+    </form>
+    <footer class="linkje"><a href="index.html">home</a></footer>
+</body>
+</html>
